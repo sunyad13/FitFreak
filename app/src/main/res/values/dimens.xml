@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--text view-->
+
+    <!-- parent content padding-->
+
+    <!--title card view-->
+
+    <!--tab layout-->
+
+    <!-- card view dimens -->
+    <dimen name="item_corner_radius">10dp</dimen>
+
+    <!--recycler view padding-->
+
+
+</resources>

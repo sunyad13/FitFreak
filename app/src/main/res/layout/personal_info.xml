@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_sheet_bg"
+    android:id="@+id/bottom_sheet">
+
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="80dp"
+        android:layout_gravity="center"
+        android:layout_height="10dp"
+        android:src="@drawable/bar"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap to edit"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                app:layout_constraintStart_toStartOf="@id/nameEt"
+                app:layout_constraintEnd_toEndOf="@id/nameEt"
+                app:layout_constraintBottom_toTopOf="@id/nameEt"
+                android:textColor="@color/black"
+                />
+            <EditText
+                android:id="@+id/nameEt"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/name"
+                android:background="@drawable/border_input"
+                android:gravity="center"
+                app:layout_constraintEnd_toStartOf="@id/heightEt"
+                app:layout_constraintStart_toStartOf="parent"
+                android:hint="Name"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLines="2"
+                android:minHeight="70dp"
+                android:padding="15dp"
+                android:textColor="@color/textColor"
+                android:textColorHint="#9FA5C0"
+                android:textCursorDrawable="@drawable/et_cursor"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height"
+                app:layout_constraintStart_toStartOf="@id/heightEt"
+                app:layout_constraintEnd_toEndOf="@id/heightEt"
+                app:layout_constraintBottom_toTopOf="@id/heightEt"
+                android:textColor="@color/black"
+                />
+            <EditText
+                android:id="@+id/heightEt"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/height"
+                android:background="@drawable/border_input"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:hint="Height in foot"
+                app:layout_constraintStart_toEndOf="@id/nameEt"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:minHeight="70dp"
+                android:padding="15dp"
+                android:textColor="@color/textColor"
+                android:textColorHint="#9FA5C0"
+                android:textCursorDrawable="@drawable/et_cursor"
+                android:textSize="15sp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            app:layout_constraintStart_toStartOf="@id/ageET"
+            app:layout_constraintEnd_toEndOf="@id/ageET"
+            app:layout_constraintBottom_toTopOf="@id/ageET"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/ageET"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/age"
+            android:background="@drawable/border_input"
+            android:gravity="center"
+            app:layout_constraintEnd_toStartOf="@id/weightEt"
+            app:layout_constraintStart_toStartOf="parent"
+            android:hint="Age"
+            android:inputType="number"
+            android:maxLines="1"
+            android:minHeight="70dp"
+            android:padding="15dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="#9FA5C0"
+            android:textCursorDrawable="@drawable/et_cursor"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            app:layout_constraintStart_toStartOf="@id/weightEt"
+            app:layout_constraintEnd_toEndOf="@id/weightEt"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/weightEt"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/age"
+            android:background="@drawable/border_input"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:hint="Weight in kg"
+            app:layout_constraintStart_toEndOf="@id/ageET"
+            android:inputType="numberDecimal"
+            android:maxLines="1"
+            android:minHeight="70dp"
+            android:padding="15dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="#9FA5C0"
+            android:textCursorDrawable="@drawable/et_cursor"
+            android:textSize="15sp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#BCBCBC"/>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@color/white"
+            android:text="Cancel"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="10dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/prog_bar"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:indeterminateTint="@color/colorGreen"
+                android:layout_centerInParent="true"
+                android:visibility="gone">
+            </ProgressBar>
+
+            <Button
+                android:id="@+id/edit_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@color/transparent"
+                android:text="Edit"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGreen" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Details updated"
+        android:textColor="#45CA4A"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Fields can't be empty"
+        android:textColor="@color/red"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+
+</LinearLayout>
+
+

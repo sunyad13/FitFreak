@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.15587529976019185" />
+        <entry key="../../.gradle/caches/transforms-3/2f4e3df4cef90ac94df8cba046dfbebe/transformed/material-1.4.0/res/drawable/ic_mtrl_chip_checked_black.xml" value="0.2641350210970464" />
+        <entry key="../../Library/Android/sdk/platforms/android-31/data/res/drawable/ic_logout.xml" value="0.2675213675213675" />
+        <entry key="../../Library/Android/sdk/platforms/android-31/data/res/layout/auto_complete_list.xml" value="0.25427350427350426" />
+        <entry key="app/src/main/res/drawable-v24/border_input.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable-v24/border_input_black.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable-v24/color_cursor.xml" value="0.27870370370370373" />
+        <entry key="app/src/main/res/drawable-v24/default_dot.xml" value="0.2898148148148148" />
+        <entry key="app/src/main/res/drawable-v24/gradient.xml" value="0.2898148148148148" />
+        <entry key="app/src/main/res/drawable-v24/ic_account.xml" value="0.27870370370370373" />
+        <entry key="app/src/main/res/drawable-v24/ic_back_arrow.xml" value="0.27870370370370373" />
+        <entry key="app/src/main/res/drawable-v24/ic_back_arrow_white.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable-v24/ic_duration.xml" value="0.2722222222222222" />
+        <entry key="app/src/main/res/drawable-v24/ic_info_yellow.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2555" />
+        <entry key="app/src/main/res/drawable-v24/ic_no_thunder.xml" value="0.2722222222222222" />
+        <entry key="app/src/main/res/drawable-v24/ic_profile.xml" value="0.27870370370370373" />
+        <entry key="app/src/main/res/drawable-v24/ic_run.xml" value="0.27870370370370373" />
+        <entry key="app/src/main/res/drawable-v24/ic_run_yellow.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_thunder.xml" value="0.2722222222222222" />
+        <entry key="app/src/main/res/drawable-v24/reverse_gradient.xml" value="0.2898148148148148" />
+        <entry key="app/src/main/res/drawable-v24/selected_dot.xml" value="0.2898148148148148" />
+        <entry key="app/src/main/res/drawable-v24/tab_selector.xml" value="0.2898148148148148" />
+        <entry key="app/src/main/res/drawable/app_beer_bg_background.xml" value="0.2765" />
+        <entry key="app/src/main/res/drawable/app_bg.xml" value="0.2765" />
+        <entry key="app/src/main/res/drawable/bg_chip_state_list.xml" value="0.2641350210970464" />
+        <entry key="app/src/main/res/drawable/border_dotted.xml" value="0.30462962962962964" />
+        <entry key="app/src/main/res/drawable/bottom_icon_selector.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/bottom_profile.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/bottom_quote.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/bottom_search.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/bottom_sheet_bg.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/cuircular_image.xml" value="0.30462962962962964" />
+        <entry key="app/src/main/res/drawable/dottedbo.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/drawable/et_cursor.xml" value="0.2045" />
+        <entry key="app/src/main/res/drawable/ic_acc_filled.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/ic_back_button.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/ic_edit.xml" value="0.2641350210970464" />
+        <entry key="app/src/main/res/drawable/ic_info.xml" value="0.2675213675213675" />
+        <entry key="app/src/main/res/drawable/ic_quote_outline.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/ic_quotes.xml" value="0.2641350210970464" />
+        <entry key="app/src/main/res/drawable/ic_quotes_white.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/ic_ratings.xml" value="0.2555" />
+        <entry key="app/src/main/res/drawable/incoming_quote.xml" value="0.2222222222222222" />
+        <entry key="app/src/main/res/drawable/layerlist.xml" value="0.30462962962962964" />
+        <entry key="app/src/main/res/drawable/mail.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/main_sheet_bg.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/outgoing_quote.xml" value="0.2222222222222222" />
+        <entry key="app/src/main/res/drawable/pass.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/quote_gradient0.xml" value="0.2641350210970464" />
+        <entry key="app/src/main/res/drawable/quote_gradient1.xml" value="0.2641350210970464" />
+        <entry key="app/src/main/res/drawable/quote_gradient2.xml" value="0.2641350210970464" />
+        <entry key="app/src/main/res/drawable/quote_gradient3.xml" value="0.2641350210970464" />
+        <entry key="app/src/main/res/drawable/quote_gradient4.xml" value="0.2641350210970464" />
+        <entry key="app/src/main/res/drawable/quote_gradient5.xml" value="0.2641350210970464" />
+        <entry key="app/src/main/res/drawable/quote_gradient6.xml" value="0.2641350210970464" />
+        <entry key="app/src/main/res/drawable/quote_gradient7.xml" value="0.2641350210970464" />
+        <entry key="app/src/main/res/drawable/quote_gradient8.xml" value="0.2641350210970464" />
+        <entry key="app/src/main/res/drawable/quote_gradient9.xml" value="0.2641350210970464" />
+        <entry key="app/src/main/res/drawable/quote_white.xml" value="0.192" />
+        <entry key="app/src/main/res/drawable/rounded_button.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/rounded_croners.xml" value="0.2641350210970464" />
+        <entry key="app/src/main/res/drawable/selected_dot.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/skip.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/tab_selector.xml" value="0.1885" />
+        <entry key="app/src/main/res/font/font.xml" value="0.27552742616033754" />
+        <entry key="app/src/main/res/font/muli_bold.xml" value="0.27905982905982907" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.2105978260869565" />
+        <entry key="app/src/main/res/layout/activity_body_parts.xml" value="0.2418478260869565" />
+        <entry key="app/src/main/res/layout/activity_category.xml" value="0.25427350427350426" />
+        <entry key="app/src/main/res/layout/activity_dash_board.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_feedback.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_form.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/activity_on_boarding.xml" value="0.26132246376811596" />
+        <entry key="app/src/main/res/layout/activity_rate.xml" value="0.2105978260869565" />
+        <entry key="app/src/main/res/layout/activity_recovery.xml" value="0.25427350427350426" />
+        <entry key="app/src/main/res/layout/activity_report.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_reset_password.xml" value="0.2105978260869565" />
+        <entry key="app/src/main/res/layout/activity_secondary.xml" value="0.2418478260869565" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.2970751953125" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.26132246376811596" />
+        <entry key="app/src/main/res/layout/body_part_item.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/body_part_shimmer_list.xml" value="0.25427350427350426" />
+        <entry key="app/src/main/res/layout/bottom_sheet_layout.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/category_items.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/change_name_sheet.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/change_pass_layout.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/change_profile.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/choice_item.xml" value="0.2418478260869565" />
+        <entry key="app/src/main/res/layout/detail_list_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/detail_list_shimmer.xml" value="0.25427350427350426" />
+        <entry key="app/src/main/res/layout/fragment_about.xml" value="0.21422101449275363" />
+        <entry key="app/src/main/res/layout/fragment_advance.xml" value="0.22826086956521738" />
+        <entry key="app/src/main/res/layout/fragment_advance_fragment.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/fragment_advance_frgament.xml" value="0.2418478260869565" />
+        <entry key="app/src/main/res/layout/fragment_already_account.xml" value="0.3114532470703125" />
+        <entry key="app/src/main/res/layout/fragment_beginner.xml" value="0.2418478260869565" />
+        <entry key="app/src/main/res/layout/fragment_body_parts.xml" value="0.3045211791992188" />
+        <entry key="app/src/main/res/layout/fragment_catdetail.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_catexercise.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_community.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_create_account_fragment.xml" value="0.2860507202148438" />
+        <entry key="app/src/main/res/layout/fragment_detail.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_exercise.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_info_exercise.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_intermediate.xml" value="0.2418478260869565" />
+        <entry key="app/src/main/res/layout/fragment_main.xml" value="0.27098510742187504" />
+        <entry key="app/src/main/res/layout/fragment_main_exercise.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_on_boardingfragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_quotes.xml" value="0.21467391304347827" />
+        <entry key="app/src/main/res/layout/fragment_saved.xml" value="0.21422101449275363" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.21422101449275363" />
+        <entry key="app/src/main/res/layout/fragment_third.xml" value="0.26132246376811596" />
+        <entry key="app/src/main/res/layout/fragment_training.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/let_us_know_more_bottom.xml" value="0.318810552613348" />
+        <entry key="app/src/main/res/layout/logout_dialog.xml" value="0.37591278076171875" />
+        <entry key="app/src/main/res/layout/logout_layout.xml" value="0.2105978260869565" />
+        <entry key="app/src/main/res/layout/more_option.xml" value="0.20517730712890625" />
+        <entry key="app/src/main/res/layout/personal_info.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/quote_bottom_sheet.xml" value="0.2674774169921875" />
+        <entry key="app/src/main/res/layout/quote_item.xml" value="0.2622589531680441" />
+        <entry key="app/src/main/res/layout/search_item_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/search_shimmer_list.xml" value="0.2534188034188034" />
+        <entry key="app/src/main/res/layout/small_shimmer_profile.xml" value="0.2534188034188034" />
+        <entry key="app/src/main/res/layout/training_item.xml" value="0.24269104003906244" />
+        <entry key="app/src/main/res/layout/upload_progress_layout.xml" value="0.22" />
+        <entry key="app/src/main/res/menu/dash_menu.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/app_beer_bg.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2765" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

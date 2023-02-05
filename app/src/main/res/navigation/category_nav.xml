@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/secondary_nav_graph.xml"
+    app:startDestination="@id/catDetail">
+
+
+    <fragment
+        android:id="@+id/catDetail"
+        android:name="com.aman.ache.dashBoardActivity.category.fragments.CatDetail"
+        android:label="fragment_catdetail"
+        tools:layout="@layout/fragment_catdetail" >
+        <action
+            android:id="@+id/action_catDetail_to_catExercise"
+            app:destination="@id/catExercise" />
+    </fragment>
+    <fragment
+        android:id="@+id/catExercise"
+        android:name="com.aman.ache.dashBoardActivity.category.fragments.CatExercise"
+        android:label="fragment_catexercise"
+        tools:layout="@layout/fragment_catexercise" >
+        <action
+            android:id="@+id/action_catExercise_to_catDetail"
+            app:destination="@id/catDetail" />
+        <argument
+            android:name="position"
+            app:argType="integer" />
+    </fragment>
+</navigation>

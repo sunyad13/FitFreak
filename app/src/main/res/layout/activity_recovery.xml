@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainActivity.RecoveryActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/back_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="45dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardElevation="0dp"
+        >
+
+
+        <ImageView
+            android:background="#99474747"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/back_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_back_arrow"
+            android:backgroundTintMode="@color/white"
+            android:layout_margin="6dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recover Password"
+        android:fontFamily="@font/test1"
+        android:textSize="23sp"
+        android:textColor="@color/textColor"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:lottie_rawRes="@raw/forgot"
+        app:lottie_autoPlay="true"
+        android:layout_marginTop="20dp"
+        app:lottie_loop="true"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Enter the email associated with your \n account and we'll send you the instruction to reset your password"
+        android:gravity="center"
+        android:textColor="@color/grey"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email_input"
+        android:layout_marginTop="20dp"
+        app:boxStrokeWidth="2dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:startIconTint="@color/black"
+        app:startIconDrawable="@drawable/mail">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Email id"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@drawable/et_cursor"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/yellow"
+        android:background="@drawable/rounded_button">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Instructions"
+            android:fontFamily="@font/test1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+
+        <ProgressBar
+            android:id="@+id/prog_bar"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:indeterminateTint="@color/textColor"
+            app:layout_constraintStart_toEndOf="@id/text"
+            app:layout_constraintTop_toTopOf="@id/text"
+            app:layout_constraintBottom_toBottomOf="@id/text"
+            android:layout_marginStart="10dp"
+            android:visibility="gone">
+        </ProgressBar>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Mail has been sent to you"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorGreen"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+</LinearLayout>

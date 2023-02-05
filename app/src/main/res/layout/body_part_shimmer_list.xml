@@ -1,0 +1,61 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="20dp"
+    app:cardBackgroundColor="@color/transparent"
+    app:cardElevation="0dp"
+    android:layout_height="160dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardElevation="0dp"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardElevation="0dp"
+        android:layout_marginStart="160dp"
+        app:cardCornerRadius="6dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="50dp"
+        android:layout_width="130dp"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardElevation="0dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="190dp"
+        app:cardCornerRadius="6dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.cardview.widget.CardView>

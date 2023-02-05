@@ -1,0 +1,93 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (modified) -->
+    <style name="Theme.ache.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+
+        <!-- to make every activity full screen and status bar translucent-->
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <item name="android:navigationBarColor">@color/black</item>
+
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/primary_light</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/secondary_light</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Toolbar_Title_collapsed" parent="@android:style/TextAppearance.Large">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Toolbar_Title_expanded" parent="@android:style/TextAppearance.Large">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- made the outline edittext to have border of yellow colors-->
+    <!--    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">-->
+    <!--        <item name="boxStrokeColor">@color/white</item>-->
+    <!--        <item name="boxStrokeWidth">2dp</item>-->
+    <!--        <item name="strokeColor">@color/black</item>-->
+    <!--        &lt;!&ndash;for hint in edittext&ndash;&gt;-->
+    <!--        <item name="android:textColorHint">@color/grey</item>-->
+    <!--        &lt;!&ndash; for label on outline edittext&ndash;&gt;-->
+    <!--        <item name="hintTextColor">@color/grey</item>-->
+    <!--    </style>-->
+
+
+    <!-- for outlined button to have border yellow-->
+    <!--    <style name="outlinedButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">-->
+    <!--        <item name="borderRound">20dp</item>-->
+    <!--        -->
+    <!--        <item name="strokeWidth">3dp</item>-->
+    <!--    </style>-->
+
+    <!-- for contained box -->
+    <!--    <style name="contained_button_style">-->
+    <!--        <item name="backgroundTint">@color/yellow</item>-->
+    <!--        <item name="borderRound">50dp</item>-->
+    <!--        <item name="android:textColor">@color/textColor</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="contained_button_style_white">-->
+    <!--        <item name="backgroundTint">@color/white</item>-->
+    <!--        <item name="borderRound">50dp</item>-->
+    <!--        <item name="android:textColor">@color/textColor</item>-->
+    <!--    </style>-->
+
+
+    <style name="BottomSheetTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+
+    </style>
+
+
+
+    <style name="BottomSheetStyle" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+
+        <item name="android:background">#00000000</item>
+
+    </style>
+
+    <style name="cursorColor" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textCursorDrawable">@drawable/et_cursor</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+
+
+</resources>

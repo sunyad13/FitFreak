@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">B S C</string>
+
+    <!-- web client -->
+    <string name="server_client_id">883059991799-tkjgqebpqsbi58kfl441dnbm5evqi6bu.apps.googleusercontent.com</string>
+
+    <!--main fragments-->
+    <!--Welcome fragment-->
+    <string name="already_a_member_welcome_frag">Already a member</string>
+    <string name="create_new_account_welcome_Frag">Create an Account</string>
+
+    <!--already member fragment-->
+    <string name="First_name">First Name</string>
+    <string name="Last_name">Last Name</string>
+    <string name="enter_password_already_frag">Password</string>
+
+
+    <!-- New Account-->
+
+
+    <!--DashBoardFragment-->
+    <!--home frag-->
+
+    <!--training frag-->
+
+    <!--beginner frag-->
+    <!--intermediate frag-->
+    <!--advanced frag-->
+
+
+    <!--profile frag-->
+
+    <!--menu-->
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!--On Boarding Activity -->
+    <string name="next_button_text">Next</string>
+    <string name="get_started_text">Get Started</string>
+
+    <!-- first frag title -->
+    <string name="first_frag_title">Every home is a Gym \n and every phone is a trainer</string>
+    <!-- first frag title -->
+    <string name="second_frag_title">Everyday Quotes to keep you \n going</string>
+    <!-- first frag title -->
+    <string name="third_frag_title"> Well maintained user profile \n updated with your current physique</string>
+
+    <!-- profile -->
+
+
+    <!-- main frag -->
+    <string name="main_frag_slogan">Blood Sweat and Cheers is going to be your one stop solution for your every problem</string>
+
+
+</resources>
